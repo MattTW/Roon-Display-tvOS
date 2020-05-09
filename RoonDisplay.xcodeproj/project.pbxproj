@@ -13,7 +13,7 @@
 		B002B86A1BAE420500C744AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B002B8691BAE420500C744AF /* AppDelegate.m */; };
 		B002B86D1BAE420500C744AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B002B86C1BAE420500C744AF /* ViewController.m */; };
 		B002B8701BAE420500C744AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B002B86E1BAE420500C744AF /* Main.storyboard */; };
-		B002B8721BAE420500C744AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B002B8711BAE420500C744AF /* Assets.xcassets */; };
+		C9D370B124670E9400ACB82A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9D370B024670E9400ACB82A /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 		B002B86B1BAE420500C744AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B002B86C1BAE420500C744AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B002B86F1BAE420500C744AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B002B8711BAE420500C744AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B002B8731BAE420500C744AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9D370B024670E9400ACB82A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 			children = (
 				B002B8661BAE420500C744AF /* main.m */,
 				B002B86E1BAE420500C744AF /* Main.storyboard */,
-				B002B8711BAE420500C744AF /* Assets.xcassets */,
+				C9D370B024670E9400ACB82A /* Images.xcassets */,
 				B002B8731BAE420500C744AF /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -151,7 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B002B8721BAE420500C744AF /* Assets.xcassets in Resources */,
+				C9D370B124670E9400ACB82A /* Images.xcassets in Resources */,
 				B002B8701BAE420500C744AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +306,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Brand Assets";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -329,7 +329,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Brand Assets";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
