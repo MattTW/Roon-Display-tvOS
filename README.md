@@ -31,5 +31,5 @@ Additional Info
 =============
 - Tap the Play/Pause button on your Apple remote to bring up a basic menu.  Generally, you won't need this.  If you screw up entering the hardcoded Display URL above, you can manually set it here.   It currently is not saved if you set it this way.
 - Bug: When you leave the app on AppleTV and come back to it,  the screen fades to black for a number of seconds then will come back - this is related to the network connection to Roon needing to be re-established.
-- If you are running the app AND streaming from Roon to the Apple TV, Apple TV switches the screen to its own "Now Playing" sceen after a few minutes.
+- If you are running the app AND streaming from Roon to the Apple TV, Apple TV switches the screen to its own "Now Playing" sceen after a few minutes.  To my knowledge this tvOS behavior cannot be customized or overriden.
 
