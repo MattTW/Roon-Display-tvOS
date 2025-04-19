@@ -48,10 +48,6 @@
     [self.view setNeedsLayout];
     [self.view layoutIfNeeded];
 
-    //correct the offset
-    CGPoint point = CGPointMake(60, 90);
-    scrollView.contentInset = UIEdgeInsetsMake(-point.x, -point.y, -point.x, -point.y);
-
     scrollView.bounces = YES;
     scrollView.panGestureRecognizer.allowedTouchTypes = @[ @(UITouchTypeIndirect) ];
     scrollView.scrollEnabled = NO;
